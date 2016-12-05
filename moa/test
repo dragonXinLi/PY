@@ -1,0 +1,9 @@
+git is a distributed version control system.
+git is free software distributed under the GPL.
+//修改作者是否成功
+//修改作者是否成功~~
+//试验.什么意思
+//提交了这句代码，这个月奖金可能没有
+//git add 了一次
+//说必须加--，那我试一试，还真是（加上--可以恢复到上次git add 的版本）
+//我要checkout，但是不能是暂存区的代码,再来试试
