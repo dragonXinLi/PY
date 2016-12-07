@@ -1,0 +1,6 @@
+.DS_Sto
+names.t
+pythonå°è
+tes
+test1.
+test2.
