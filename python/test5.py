@@ -3,5 +3,5 @@
 import os;
 import stat;
 import socket;
-import paramiko;
-# import Crypto;
+# import paramiko;#目前安装不了
+import Crypto;
