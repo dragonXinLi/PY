@@ -26,7 +26,7 @@ for filename in os.listdir(path):
         if os.path.isdir(childpath) or filename == 'aaa':
             print 'sss';
         else:
-            os.makedirs(childpath); 
+            os.makedirs(childpath);
         for childfilename in os.listdir(realpath):
             if os.path.splitext(childfilename)[1] == '.txt' or os.path.splitext(childfilename)[1] == '.rar' or os.path.splitext(childfilename)[1] == '.py':
                 print childfilename;
