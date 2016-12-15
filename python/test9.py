@@ -7,8 +7,10 @@ import os;
 '''
 
 path = os.getcwd();
-for i in xrange(10,21):
+for i in xrange(11,21):
     # print i;
     filename = 'test' + '%s'%i + '.py';
     # print filename;
-    open(filename,'w');
+    outfile = open(filename,'w');
+    outfile.write('#encoding=utf-8;' + '\n' + '\n' + 'import os;')
+
