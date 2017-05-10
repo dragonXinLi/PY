@@ -71,7 +71,7 @@ elif(sys.argv[1] == 'push'):
         os.system('git add .')
         os.system('git diff')
         commitStr = sys.argv[3];
-        os.system('git commit -m %s' %commitStr)
+        os.system('git commit -m "%s"' %commitStr)
         os.system('git push origin master')
     elif (sys.argv[2] == 'py'):
         if os.path.exists('/Users/sangfor/Desktop/python/'):
@@ -95,7 +95,7 @@ elif(sys.argv[1] == 'push'):
         os.system('git add .')
         os.system('git diff')
         commitStr = sys.argv[3];
-        os.system('git commit -m %s' % commitStr)
+        os.system('git commit -m "%s"' % commitStr)
         os.system('git push origin master')
 
 
