@@ -1,6 +1,7 @@
 #encoding=utf-8;
 
 import os;
+<<<<<<< HEAD
 import sys;
 import subprocess;
 import re;
@@ -25,3 +26,19 @@ if __name__ == '__main__':
     print(index[0])
     subprocess.check_output('newfs_hfs -v DerivedData /dev/rdisk%s' % (index[0]), shell=True);
     subprocess.check_output('diskutil mount -mountPoint ~/Library/Developer/Xcode/DerivedData %s' % (returncode), shell=True);
+=======
+
+s = 0
+def add(a,b,c,d):
+    global s
+    s1 = 0
+    print (len(d) <=1 and d or 2)
+    for i in range(a , b):
+        if(c <= 0):
+            c = 1
+        s += (i**c+sum(d))
+
+
+add(1,10,1,[1])
+print (s)
+>>>>>>> 63e953de8fff54d14d94a5337393599aa5f3d8cd
