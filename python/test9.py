@@ -7,7 +7,7 @@ import os;
 '''
 
 path = os.getcwd();
-for i in xrange(21,40):
+for i in xrange(40,100):
     # print i;
     filename = 'test' + '%s'%i + '.py';
     # print filename;
